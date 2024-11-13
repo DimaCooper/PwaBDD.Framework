@@ -1,0 +1,33 @@
+2024-11-14 01:38:23 - INFO - Starting test execution
+2024-11-14 01:38:23 - INFO - 
+Starting feature execution: Windows Calculator
+2024-11-14 01:38:23 - INFO - 
+Starting scenario execution: Adding two numbers
+2024-11-14 01:38:23 - INFO - Launching Windows calculator
+2024-11-14 01:38:24 - INFO - Calculator launched successfully
+2024-11-14 01:38:24 - INFO - Entering number: 5
+2024-11-14 01:38:25 - INFO - Clicking button: plus
+2024-11-14 01:38:25 - INFO - Entering number: 5
+2024-11-14 01:38:26 - INFO - Clicking button: equals
+2024-11-14 01:38:27 - INFO - Verifying result. Expected: 10, Actual: 10
+2024-11-14 01:38:27 - INFO - Result verification successful
+2024-11-14 01:38:27 - SUCCESS - Scenario 'Adding two numbers' successfully completed
+2024-11-14 01:38:27 - INFO - 
+Starting scenario execution: Adding three positive numbers
+2024-11-14 01:38:27 - WARNING - Scenario 'Adding three positive numbers' skipped: marked with @skip tag
+2024-11-14 01:38:27 - INFO - Finishing feature execution: Windows Calculator
+2024-11-14 01:38:27 - INFO - 
+Starting feature execution: Windows Calculator negative
+2024-11-14 01:38:27 - INFO - 
+Starting scenario execution: Adding two numbers negative test
+2024-11-14 01:38:27 - INFO - Launching Windows calculator
+2024-11-14 01:38:28 - INFO - Calculator launched successfully
+2024-11-14 01:38:28 - INFO - Entering number: 5
+2024-11-14 01:38:29 - INFO - Clicking button: plus
+2024-11-14 01:38:29 - INFO - Entering number: 5
+2024-11-14 01:38:30 - INFO - Clicking button: equals
+2024-11-14 01:38:31 - INFO - Verifying result. Expected: 22, Actual: 5
+2024-11-14 01:38:31 - ERROR - Error! Expected result: 22, Actual result: 5
+2024-11-14 01:38:31 - ERROR - Scenario 'Adding two numbers negative test' failed
+2024-11-14 01:38:31 - INFO - Finishing feature execution: Windows Calculator negative
+2024-11-14 01:38:31 - INFO - Finishing all tests execution
